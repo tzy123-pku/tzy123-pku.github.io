@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>田宗源 | 个人主页</title>
+  <style>
+    body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Microsoft YaHei",Arial,sans-serif;max-width:900px;margin:40px auto;padding:0 18px;line-height:1.75}
+    header{margin-bottom:24px}
+    h1{margin:0 0 8px}
+    .muted{color:#666}
+    .card{border:1px solid #e5e5e5;border-radius:14px;padding:16px 16px;margin:14px 0}
+    a{color:#2563eb;text-decoration:none}
+    a:hover{text-decoration:underline}
+    ul{margin:8px 0 0 18px}
+    code{background:#f3f4f6;padding:2px 6px;border-radius:6px}
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>田宗源</h1>
+    <div class="muted">
+      【需要填写】一句话简介：例如“北京大学 ×× 专业 / 健康数据科学课程作业主页”
+    </div>
+  </header>
+
+  <section class="card">
+    <h2>课程</h2>
+    <ul>
+      <li>课程：健康数据科学 / Python</li>
+      <li>作业提交：个人主页（20 分）+ 项目展示页（10 分）+ LaTeX 报告 PDF（80 分）</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>课程项目</h2>
+    <ul>
+      <li>
+        <b>心脏病预测（数据分析与 Logistic 回归）</b>
+        <ul>
+          <li>项目展示页（GitHub Pages）：<a href="https://tzy123-pku.github.io/heart-project-page1/" target="_blank" rel="noopener">点击打开</a></li>
+          <li>报告 PDF：<a href="REPORT.pdf" target="_blank" rel="noopener">REPORT.pdf</a>（放在本仓库根目录）</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>联系</h2>
+    <ul>
+      <li>Email：13283585307@qq.com</li>
+      <li>GitHub：<a href="https://github.com/tzy123-pku" target="_blank" rel="noopener">tzy123-pku</a></li>
+    </ul>
+  </section>
+
+  <footer class="muted" style="margin-top:18px">
+    最后更新：<span id="d"></span>
+    <script>document.getElementById("d").textContent=new Date().toISOString().slice(0,10);</script>
+  </footer>
+</body>
+</html>
